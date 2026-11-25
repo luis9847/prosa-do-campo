@@ -238,4 +238,4 @@ nav.sections .links a[aria-current="page"] { color: var(--accent); font-weight: 
 @media (max-width: 760px) { .banner { grid-template-columns: minmax(0, 1fr) 36%; gap: 12px; padding: 14px; } .banner h2 { font-size: 1.3rem; } .banner p { font-size: 0.8rem; margin-top: 6px; } .banner img { width: 100%; height: auto; aspect-ratio: 1 / 1; } }
 
 
-.hero.hero-page img { width: 100%; height: auto; aspect-ratio: 2 / 1; object-fit: cover; }
+.hero.hero-page img { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; }
