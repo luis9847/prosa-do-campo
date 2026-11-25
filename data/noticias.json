@@ -1,0 +1,106 @@
+{
+ "atualizadoEm": "2026-11-25T18:00:00-03:00",
+ "itens": [
+  {
+   "titulo": "Café cai 2,46% e soja sobe 0,98% nas cotações agro de Minas",
+   "fonte": "O Tempo",
+   "data": "25/11/2026",
+   "url": "https://www.otempo.com.br/agro/2026/11/25/cotacoes-do-agro-em-minas-25-11-2026",
+   "tema": "cafe"
+  },
+  {
+   "titulo": "Soja sobe 1,14% em Minas e iguala o maior preço em 12 meses",
+   "fonte": "O Tempo",
+   "data": "24/11/2026",
+   "url": "https://www.otempo.com.br/agro/2026/11/24/cotacoes-do-agro-em-minas-24-11-2026",
+   "tema": "graos"
+  },
+  {
+   "titulo": "Café sobe 0,95% em Minas e lidera alta do agro nesta segunda-feira",
+   "fonte": "O Tempo",
+   "data": "23/11/2026",
+   "url": "https://www.otempo.com.br/agro/2026/11/23/cotacoes-do-agro-em-minas-23-11-2026",
+   "tema": "cafe"
+  },
+  {
+   "titulo": "Conab: nova estimativa da safra de grãos é de 366,1 milhões de toneladas",
+   "fonte": "Agência Gov (EBC), sobre levantamento da Conab",
+   "data": "13/11/2026",
+   "url": "https://agenciagov.ebc.com.br/noticias/202611/nova-estimativa-da-conab-para-safra-de-graos-2026-27-e-de-366-1-milhoes-de-toneladas",
+   "tema": "graos",
+   "impacto": "Uma safra nacional grande tende a segurar o preço do milho de ração para quem cria gado e produz leite em Minas."
+  },
+  {
+   "titulo": "Safra de grãos 2026/27 pode alcançar 366,1 milhões de toneladas",
+   "fonte": "Rádio Itatiaia",
+   "data": "14/11/2026",
+   "url": "https://www.itatiaia.com.br/agro/safra-de-graos-2026-27-pode-alcancar-3661-milhoes-de-toneladas/",
+   "tema": "graos",
+   "impacto": "A área de milho cresce, mas a produtividade média deve cair; vale acompanhar o clima antes de travar preço de ração."
+  },
+  {
+   "titulo": "Carne bovina brasileira movimenta US$ 170 milhões na CIIE 2026, na China",
+   "fonte": "Canal Rural",
+   "data": "16/11/2026",
+   "url": "https://www.canalrural.com.br/pecuaria/carne-bovina-brasileira-movimenta-us-170-milhoes-na-ciie-2026-na-china/",
+   "tema": "mercado",
+   "impacto": "Negócios com a China reforçam a demanda por carne brasileira, o que sustenta a arroba."
+  },
+  {
+   "titulo": "Boi gordo fica estável em SP, enquanto oferta restrita sustenta mercado gaúcho",
+   "fonte": "Agrolink",
+   "data": "17/11/2026",
+   "url": "https://www.agrolink.com.br/noticias/boi-gordo-fica-estavel-em-sp--enquanto-oferta-restrita-sustenta-mercado-gaucho_521167.html",
+   "tema": "boi",
+   "impacto": "Traz vaca gorda e boi China em São Paulo, referências usadas na negociação em Minas. A matéria não traz preço mineiro."
+  },
+  {
+   "titulo": "Boi gordo sobe R$ 10 em Goiás, enquanto contrato futuro da arroba recua na B3",
+   "fonte": "Canal Rural",
+   "data": "18/11/2026",
+   "url": "https://www.canalrural.com.br/pecuaria/boi-gordo-sobe-r-10-em-goias-enquanto-contrato-futuro-da-arroba-recua-na-b3/",
+   "tema": "boi",
+   "impacto": "Goiás é vizinho do Triângulo e do Noroeste de Minas. A matéria traz alta de até R$ 10 por arroba no norte de Goiás e queda de 0,86% no contrato de novembro da B3."
+  },
+  {
+   "titulo": "Boi gordo chega a R$ 394 por arroba em São Paulo",
+   "fonte": "Agrolink",
+   "data": "18/11/2026",
+   "url": "https://www.agrolink.com.br/noticias/boi-gordo-chega-a-r--394-por-arroba-em-sao-paulo_521261.html",
+   "tema": "boi",
+   "impacto": "O indicador paulista é referência para a arroba em Minas."
+  },
+  {
+   "titulo": "Repasses adicionais dos preços da carne ao consumidor tendem a limitar altas da arroba, diz Itaú BBA",
+   "fonte": "Canal Rural",
+   "data": "18/11/2026",
+   "url": "https://www.canalrural.com.br/pecuaria/repasses-adicionais-dos-precos-da-carne-ao-consumidor-tendem-a-limitar-altas-da-arroba-diz-itau-bba/",
+   "tema": "boi",
+   "impacto": "A análise indica que o consumidor pode limitar novas altas da arroba; quem vai vender pode avaliar travar parte do preço."
+  },
+  {
+   "titulo": "Dólar dispara e mantém soja no Brasil no maior valor do ano",
+   "fonte": "BrasilAgro",
+   "data": "18/11/2026",
+   "url": "https://www.brasilagro.com.br/conteudo/dolar-dispara-e-mantem-soja-no-brasil-no-maior-valor-do-ano.html",
+   "tema": "graos",
+   "impacto": "Dólar mais alto melhora a soja em reais, mas encarece adubo e defensivos da próxima safra."
+  },
+  {
+   "titulo": "Café arábica sobe 1,14% e saca chega a R$ 1.688,00 em São Paulo",
+   "fonte": "Brasil 61 (indicador Cepea/Esalq)",
+   "data": "18/11/2026",
+   "url": "https://brasil61.com/n/cafe-arabica-sobe-1-14-e-saca-chega-a-r-1-688-00-em-sao-paulo-pagr266654",
+   "tema": "cafe",
+   "impacto": "O indicador do arábica é referência para o cafeicultor do Sul de Minas."
+  },
+  {
+   "titulo": "Captação de leite e recebimento de couro caem no 3º trimestre, diz IBGE",
+   "fonte": "Canal Rural",
+   "data": "19/11/2026",
+   "url": "https://www.canalrural.com.br/pecuaria/captacao-de-leite-e-recebimento-de-couro-caem-no-3o-trimestre-diz-ibge/",
+   "tema": "leite",
+   "impacto": "A captação nacional caiu 0,4% na comparação anual. A matéria não traz dados de Minas."
+  }
+ ]
+}

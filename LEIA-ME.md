@@ -4,13 +4,14 @@ Site de notícias, clima e cotações do campo para Minas Gerais, com foco no Su
 
 ## O que tem na pasta
 
-- `index.html`: o site inteiro (página, visual e programa).
-- `data/cotacoes.json`: todos os preços, as manchetes e o dólar do dia. **É o único arquivo que muda no dia a dia.**
+- `index.html`, `clima.html`, `cotacoes.html`, `noticias.html`, `dicas.html`: as cinco páginas.
+- `assets/site.css` e `assets/site.js`: visual e programa, comuns às páginas.
+- `data/cotacoes.json` (preços e dólar), `data/noticias.json` e `data/clima.json` (notícias), `data/dicas.json` (dicas e leituras). **São os arquivos que mudam no dia a dia.**
 - `ATUALIZACAO-DIARIA.md`: o passo a passo para atualizar os preços com segurança.
 
 ## Como o site funciona
 
-- Ao abrir, a página lê `data/cotacoes.json` e monta os quadros de cotação, a faixa rolante e as notícias.
+- Ao abrir, cada página lê os arquivos de `data/` de que precisa e monta quadros, faixa rolante, notícias e dicas.
 - O **dólar** é buscado ao vivo ao abrir a página (AwesomeAPI). Se a busca falhar, o site mostra o último valor do arquivo, com o horário.
 - O **clima e os alertas de geada e chuva forte** são buscados ao vivo (Open-Meteo), por cidade. Se falhar, o site avisa que a previsão está indisponível. Não mostra número inventado.
 - A etiqueta "Atualizado em..." da seção Cotações avisa quando os preços têm mais de 30 horas ("podem estar desatualizados"). Assim, se a atualização diária parar, o visitante fica sabendo.

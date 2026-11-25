@@ -1,0 +1,96 @@
+{
+ "atualizadoEm": "2026-11-25T18:00:00-03:00",
+ "noticias": [
+  {
+   "titulo": "INMET emite alertas de tempestade para Minas Gerais; Norte do estado tem risco de temporais",
+   "fonte": "Sou Notícia",
+   "data": "17/11/2026",
+   "url": "https://www.sounoticia.com.br/noticia/141110/clima-e-tempo/inmet-emite-alertas-de-tempestade-para-minas-gerais-norte-do-estado-tem-risco-de-temporais-17112026",
+   "tema": "chuva",
+   "regiao": "Minas Gerais",
+   "impacto": "Alerta laranja no Norte e amarelo em outras regiões. Vale reforçar drenagem e conferir estradas rurais."
+  },
+  {
+   "titulo": "Chuva forte e granizo: alerta atinge todos os municípios de Minas",
+   "fonte": "Estado de Minas",
+   "data": "18/11/2026",
+   "url": "https://www.em.com.br/gerais/2026/11/7540661-chuva-forte-e-granizo-alerta-atinge-todos-os-municipios-de-minas.html",
+   "tema": "chuva",
+   "regiao": "Minas Gerais",
+   "impacto": "Os 853 municípios entraram em alerta do INMET em 18/11, com risco de granizo, queda de energia e dano a lavouras."
+  },
+  {
+   "titulo": "Chuvas fortes deixam Minas Gerais em alerta",
+   "fonte": "Agência Brasil (Radioagência Nacional)",
+   "data": "18/11/2026",
+   "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/meio-ambiente/audio/2026-11/chuvas-fortes-deixam-minas-gerais-em-alerta",
+   "tema": "chuva",
+   "regiao": "Minas Gerais",
+   "impacto": "Segundo a Defesa Civil, 29 cidades já tinham decretado emergência, com alagamentos e deslizamentos."
+  },
+  {
+   "titulo": "Defesa Civil alerta para previsão de chuvas intensas em MG",
+   "fonte": "Poços Já",
+   "data": "20/11/2026",
+   "url": "https://pocosja.com.br/noticia/previsao_do_tempo/2026/11/20/defesa-civil-alerta-para-previsao-de-chuvas-intensas-em-mg-nos-proximos-15-dias/",
+   "tema": "chuva",
+   "regiao": "Sul de Minas",
+   "impacto": "Para 19/11 a 3/12, a previsão é de 150 a 300 mm no Sul e Sudoeste. Há risco de enxurrada; planeje o escoamento e o manejo do solo."
+  },
+  {
+   "titulo": "Minas pode registrar até 400mm de chuva em 15 dias, alerta Defesa Civil",
+   "fonte": "Estado de Minas",
+   "data": "22/11/2026",
+   "url": "https://www.em.com.br/gerais/2026/11/7542277-minas-pode-registrar-ate-400mm-de-chuva-em-15-dias-alerta-defesa-civil.html",
+   "tema": "chuva",
+   "regiao": "Minas Gerais",
+   "impacto": "Os maiores volumes (250 a 400 mm) são esperados na região de BH, Central, Oeste e Campo das Vertentes, com risco de cheia de córregos."
+  },
+  {
+   "titulo": "BH permanece em alerta para temporais; Minas terá semana de chuva",
+   "fonte": "Estado de Minas",
+   "data": "24/11/2026",
+   "url": "https://www.em.com.br/gerais/2026/11/7543190-bh-permanece-em-alerta-para-temporais-minas-tera-semana-de-chuva.html",
+   "tema": "chuva",
+   "regiao": "Sul de Minas",
+   "impacto": "O texto cita pancadas fortes em cidades do Sul e Sudoeste, como Poços de Caldas, Pouso Alegre, Varginha, Passos e Alfenas, com acumulados de até 100 mm em áreas específicas."
+  },
+  {
+   "titulo": "INMET emite alerta de tempestade para centenas de cidades de Minas Gerais; veja lista",
+   "fonte": "Correio de Minas",
+   "data": "25/11/2026",
+   "url": "https://correiodeminas.com.br/2026/11/25/inmet-emite-alerta-de-tempestade-para-centenas-de-cidades-de-minas-gerais-veja-lista/",
+   "tema": "chuva",
+   "regiao": "Minas Gerais",
+   "impacto": "Aviso amarelo de 25/11, com ventos e possibilidade de granizo em várias regiões."
+  }
+ ],
+ "links": [
+  {
+   "nome": "Defesa Civil de Minas Gerais",
+   "url": "https://www.mg.gov.br/defesacivil",
+   "serve_para": "Avisos, orientações e como receber alertas por SMS."
+  },
+  {
+   "nome": "INMET",
+   "url": "https://portal.inmet.gov.br/",
+   "serve_para": "Avisos meteorológicos oficiais e previsão."
+  },
+  {
+   "nome": "Cemaden",
+   "url": "https://www.gov.br/cemaden/pt-br",
+   "serve_para": "Monitoramento de chuvas fortes, enchentes, deslizamentos e secas."
+  },
+  {
+   "nome": "CPTEC/INPE",
+   "url": "https://www.cptec.inpe.br/",
+   "serve_para": "Previsão de tempo e clima do INPE."
+  }
+ ],
+ "sazonal": {
+  "texto": "O boletim agroclimatológico do INMET prevê excedente hídrico acima de 100 mm no centro e sul de Minas em dezembro de 2026, podendo passar de 150 mm em janeiro de 2027. É uma previsão, e pode mudar.",
+  "fonte": "INMET, Boletim Agroclimatológico de novembro de 2026",
+  "url": "https://portal.inmet.gov.br/uploads/boletinsAgroclimatologicos/Boletim_AGRO_Novembro_2026.pdf",
+  "data": "novembro de 2026"
+ }
+}

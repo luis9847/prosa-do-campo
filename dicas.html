@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dicas do campo · Prosa do Campo</title>
+<meta name="description" content="Dicas práticas para lavoura e pecuária de Minas Gerais, com a fonte técnica de cada uma.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body data-page="dicas">
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="index.html" style="color:inherit;text-decoration:none">
+      <svg class="logo" viewBox="0 0 48 48" role="img" aria-label="Logo Prosa do Campo: balão de conversa com uma espiga">
+        <path d="M6 10a6 6 0 0 1 6-6h24a6 6 0 0 1 6 6v18a6 6 0 0 1-6 6H22l-9 9v-9h-1a6 6 0 0 1-6-6z" fill="var(--accent-ink)"/>
+        <path d="M24 30V14" stroke="var(--accent)" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+        <g fill="var(--accent)">
+          <path d="M24 12c-3 0-4.5-2.5-4.5-4.5C22.500 7.500 24 9.500 24 12z"/>
+          <path d="M24 12c3 0 4.500-2.500 4.500-4.500C25.500 7.500 24 9.500 24 12z"/>
+          <path d="M24 19c-4 0-5.500-3-5.500-5.500C22 13.500 24 15.500 24 19z"/>
+          <path d="M24 19c4 0 5.500-3 5.500-5.500C26 13.500 24 15.500 24 19z"/>
+          <path d="M24 26c-4 0-5.500-3-5.500-5.500C22 20.500 24 22.500 24 26z"/>
+          <path d="M24 26c4 0 5.500-3 5.500-5.500C26 20.500 24 22.500 24 26z"/>
+        </g>
+      </svg>
+      <div>
+        <h1>Prosa do Campo</h1>
+        <p id="today">Notícias, clima e cotações para o produtor mineiro</p>
+      </div>
+    </a>
+  </div>
+</header>
+
+<div class="ticker" aria-label="Cotações do dia">
+  <a class="tk-label" href="cotacoes.html">Cotações</a>
+  <div class="tk-view"><div class="tk-row" id="ticker"></div></div>
+</div>
+
+<nav class="sections" aria-label="Seções">
+  <div class="wrap">
+    <div class="links"><a href="index.html">Início</a><a href="clima.html">Clima</a><a href="cotacoes.html">Cotações</a><a href="noticias.html">Notícias</a><a href="dicas.html" aria-current="page">Dicas do campo</a></div>
+    <a class="nav-usd" id="nav-usd" href="cotacoes.html#dolar"><span class="k">Dólar hoje</span><span class="v" id="nav-v">R$ —</span><span class="down" id="nav-pct"></span><span class="t" id="nav-t"></span></a>
+  </div>
+</nav>
+
+<main class="wrap">
+
+  <div class="page-head">
+    <h2>Dicas do campo</h2>
+    <p>Orientações gerais de instituições como Embrapa, Epamig e Cooxupé, para lavoura e pecuária. Cada dica traz a fonte. Doses e produtos dependem de cada área: fale com o agrônomo ou o médico-veterinário.</p>
+  </div>
+  <section aria-labelledby="h-dc" style="margin-top:20px">
+    <header><h2 id="h-dc">Dicas práticas</h2><span class="tag live" id="dicas-stamp">Dicas</span></header>
+    <div class="chips" id="dicas-chips" role="group" aria-label="Filtrar por área"></div>
+    <div class="cardgrid" id="dicas-list"><p class="sub">Carregando…</p></div>
+  </section>
+
+  <section aria-labelledby="h-lt">
+    <header><h2 id="h-lt">Para ler com calma</h2></header>
+    <div class="cols" style="grid-template-columns:repeat(2,minmax(0,1fr))">
+      <div class="panel"><h3>Lavoura</h3><ul class="news" id="artigos-lav"><li class="sub">Carregando…</li></ul></div>
+      <div class="panel"><h3>Pecuária</h3><ul class="news" id="artigos-pec"><li class="sub">Carregando…</li></ul></div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    Prosa do Campo é um projeto em desenvolvimento. Cotações de Minas Gerais: BBM, Conseleite-MG, Cepea, Avimig, Conab, CeasaMinas e cooperativas de café, conforme os portais citados em cada quadro; dólar: mercado de câmbio e Banco Central. Previsão do tempo: Open-Meteo. Notícias e dicas: títulos e links dos veículos e instituições citados, com resumos próprios. Os alertas são indicativos e não substituem os avisos oficiais; confirme preços na fonte antes de fechar negócio.
+  </div>
+</footer>
+<script src="assets/site.js"></script>
+</body>
+</html>

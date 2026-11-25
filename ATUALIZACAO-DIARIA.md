@@ -1,6 +1,6 @@
 # Atualização diária dos preços
 
-Este documento descreve como atualizar `data/cotacoes.json`. Pode ser seguido por uma pessoa ou por uma tarefa agendada do Claude.
+Este documento descreve como atualizar os arquivos de dados do site: `data/cotacoes.json` (todo dia útil), `data/noticias.json` e `data/clima.json` (notícias; todo dia útil) e `data/dicas.json` (dicas e leituras; de vez em quando). Pode ser seguido por uma pessoa ou por uma tarefa agendada do Claude.
 
 ## Regras que não podem ser quebradas
 
@@ -30,16 +30,20 @@ Este documento descreve como atualizar `data/cotacoes.json`. Pode ser seguido po
 - `dolar`: `valor`, `variacaoPct`, `hora`, `data`, `tipo`, `ptax`, `fonte`, `url`, `nota`, `linhas`.
 - `ticker`: lista da faixa rolante. Cada item tem `k` (nome), `v` (valor), `u` (unidade), `d` (data) e `dir` (`1` alta, `-1` queda, `0` estável, `null` sem seta).
 - `paineis`: quadros de cotação. Cada um tem `icone` (`boi`, `leite`, `grao`, `cafe`, `cesta`, `folha`), `titulo`, `sub`, `blocos` (tabelas com `colunas`, `linhas`, `nota` e `fontes`). Linhas aceitam texto simples ou `{ "t": texto, "s": legenda, "cls": "val|up|down|dt" }`.
-- `noticias`: até 5 manchetes recentes de Minas, com `categoria`, `fonte`, `data`, `titulo` e `url` (só endereços `https://`).
+- Notícias ficam em arquivos próprios (o campo `noticias` não existe mais em `cotacoes.json`):
+  - `data/noticias.json`: `atualizadoEm` e `itens` com `titulo` (exato, como na página), `fonte`, `data` (`dd/mm/aaaa`, com ano), `url` (só `https://`), `tema` (`boi`, `leite`, `cafe`, `graos`, `mercado`) e `impacto` (uma frase própria, opcional; nunca copiar trecho da matéria). Manter de 12 a 20 itens dos últimos 15 dias, apagando os mais velhos.
+  - `data/clima.json`: `noticias` (mesmo formato, com `tema` `chuva`, `geada`, `calor`, `seca` ou `geral`, e `regiao` `Sul de Minas`, `Minas Gerais` ou `Brasil`), `links` (avisos oficiais) e `sazonal` (perspectiva oficial, ou `null`).
+  - `data/dicas.json`: `dicas` (`area`: `cafe`, `milho`, `soja`, `feijao`, `corte`, `recria`, `leite`; `titulo`, `texto`, `epoca`, `fonte`, `url`, `data`) e `artigos`. Só fontes técnicas (Embrapa, Epamig, Emater-MG, Cooxupé, universidades). Sem dose de remédio nem receita de agrotóxico.
+  - Regra para notícias: abrir cada página, conferir título, data e ano antes de incluir. Se não abrir, não entra.
 
 ## Passo a passo
 
-1. Buscar os valores novos nas fontes acima, seguindo as regras.
-2. Editar `data/cotacoes.json` e atualizar `atualizadoEm`.
-3. Validar que o arquivo continua correto: `node -e "JSON.parse(require('fs').readFileSync('data/cotacoes.json','utf8'))"`.
+1. Buscar os valores novos nas fontes acima, seguindo as regras. Também buscar notícias novas do mercado (boi, leite, café, grãos) e do clima em Minas e atualizar `noticias.json` e `clima.json`.
+2. Editar os arquivos de dados e atualizar `atualizadoEm` de cada um.
+3. Validar que o arquivo continua correto: `for f in data/*.json; do node -e "JSON.parse(require('fs').readFileSync('$f','utf8'))" || echo erro em $f; done`.
 4. Publicar o arquivo. No GitHub, é um commit com a mensagem "Atualiza cotações DD/MM".
 5. Abrir o site e conferir a faixa de cotações, o dólar no menu e as tabelas.
 
 ## Texto para a tarefa agendada do Claude
 
-> Atualize `data/cotacoes.json` do site Prosa do Campo seguindo `ATUALIZACAO-DIARIA.md`. Busque os preços de hoje de Minas Gerais (soja, milho, feijão, café por cooperativa, leite, boi, hortifrúti, frango, dólar) e as 5 manchetes mais recentes do agro mineiro. Não invente valores, confira o ano e as datas, mantenha a data de cada preço, atualize `atualizadoEm`, valide o JSON e publique com a mensagem "Atualiza cotações DD/MM". No fim, liste o que não foi possível confirmar.
+> Atualize `data/cotacoes.json` do site Prosa do Campo seguindo `ATUALIZACAO-DIARIA.md`. Busque os preços de hoje de Minas Gerais (soja, milho, feijão, café por cooperativa, leite, boi, hortifrúti, frango, dólar) . Não invente valores, confira o ano e as datas, mantenha a data de cada preço, atualize `atualizadoEm`, valide o JSON e publique com a mensagem "Atualiza cotações DD/MM". No fim, liste o que não foi possível confirmar.

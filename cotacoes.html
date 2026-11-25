@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cotações · Prosa do Campo</title>
+<meta name="description" content="Cotações do agro de Minas Gerais: boi, leite, grãos, café por cooperativa, hortifrúti e dólar.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body data-page="cotacoes">
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="index.html" style="color:inherit;text-decoration:none">
+      <svg class="logo" viewBox="0 0 48 48" role="img" aria-label="Logo Prosa do Campo: balão de conversa com uma espiga">
+        <path d="M6 10a6 6 0 0 1 6-6h24a6 6 0 0 1 6 6v18a6 6 0 0 1-6 6H22l-9 9v-9h-1a6 6 0 0 1-6-6z" fill="var(--accent-ink)"/>
+        <path d="M24 30V14" stroke="var(--accent)" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+        <g fill="var(--accent)">
+          <path d="M24 12c-3 0-4.5-2.5-4.5-4.5C22.500 7.500 24 9.500 24 12z"/>
+          <path d="M24 12c3 0 4.500-2.500 4.500-4.500C25.500 7.500 24 9.500 24 12z"/>
+          <path d="M24 19c-4 0-5.500-3-5.500-5.500C22 13.500 24 15.500 24 19z"/>
+          <path d="M24 19c4 0 5.500-3 5.500-5.500C26 13.500 24 15.500 24 19z"/>
+          <path d="M24 26c-4 0-5.500-3-5.500-5.500C22 20.500 24 22.500 24 26z"/>
+          <path d="M24 26c4 0 5.500-3 5.500-5.500C26 20.500 24 22.500 24 26z"/>
+        </g>
+      </svg>
+      <div>
+        <h1>Prosa do Campo</h1>
+        <p id="today">Notícias, clima e cotações para o produtor mineiro</p>
+      </div>
+    </a>
+  </div>
+</header>
+
+<div class="ticker" aria-label="Cotações do dia">
+  <a class="tk-label" href="cotacoes.html">Cotações</a>
+  <div class="tk-view"><div class="tk-row" id="ticker"></div></div>
+</div>
+
+<nav class="sections" aria-label="Seções">
+  <div class="wrap">
+    <div class="links"><a href="index.html">Início</a><a href="clima.html">Clima</a><a href="cotacoes.html" aria-current="page">Cotações</a><a href="noticias.html">Notícias</a><a href="dicas.html">Dicas do campo</a></div>
+    <a class="nav-usd" id="nav-usd" href="cotacoes.html#dolar"><span class="k">Dólar hoje</span><span class="v" id="nav-v">R$ —</span><span class="down" id="nav-pct"></span><span class="t" id="nav-t"></span></a>
+  </div>
+</nav>
+
+<main class="wrap">
+
+  <div class="page-head">
+    <h2>Cotações</h2>
+    <p>Preços de Minas Gerais, cada um com a data e a fonte. Onde não há dado confirmado, o quadro diz isso.</p>
+  </div>
+  <section aria-labelledby="h-cot" style="margin-top:20px">
+    <header><h2 id="h-cot">Preços do dia</h2><span class="tag" id="cot-tag">Carregando…</span></header>
+    <p class="notice" id="aviso">Carregando…</p>
+    <div class="tabs" role="tablist" aria-label="Tipo de cotação">
+      <button type="button" role="tab" id="tab-agro" aria-selected="true" aria-controls="panel-agro">Agro</button>
+      <button type="button" role="tab" id="tab-usd" aria-selected="false" aria-controls="panel-usd">Dólar</button>
+    </div>
+    <div class="quotes" id="panel-agro" role="tabpanel" aria-labelledby="tab-agro"><p class="empty">Carregando cotações…</p></div>
+    <div class="usd" id="panel-usd" role="tabpanel" aria-labelledby="tab-usd" hidden>
+      <div class="panel">
+        <div class="lbl">Dólar à vista · USD/BRL</div>
+        <div class="big" id="usd-val">—</div>
+        <div class="chg" id="usd-chg"></div>
+        <dl>
+          <dt>Data</dt><dd id="usd-date"></dd>
+          <dt>Tipo</dt><dd id="usd-type"></dd>
+          <dt>PTAX (venda)</dt><dd id="usd-ptax"></dd>
+        </dl>
+      </div>
+      <div class="panel">
+        <h3>Registro do dia</h3>
+        <div class="scroll"><table>
+          <thead><tr><th>Horário</th><th>Valor</th><th>Variação</th><th>Fonte</th></tr></thead>
+          <tbody id="usd-rows"></tbody></table></div>
+        <p class="sub" id="usd-note" style="margin:10px 0 0"></p>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="h-cn">
+    <header><h2 id="h-cn">Notícias que mexem com os preços</h2><a href="noticias.html">Todas as notícias</a></header>
+    <div class="panel"><ul class="news" id="cot-news"><li class="sub">Carregando…</li></ul></div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    Prosa do Campo é um projeto em desenvolvimento. Cotações de Minas Gerais: BBM, Conseleite-MG, Cepea, Avimig, Conab, CeasaMinas e cooperativas de café, conforme os portais citados em cada quadro; dólar: mercado de câmbio e Banco Central. Previsão do tempo: Open-Meteo. Notícias e dicas: títulos e links dos veículos e instituições citados, com resumos próprios. Os alertas são indicativos e não substituem os avisos oficiais; confirme preços na fonte antes de fechar negócio.
+  </div>
+</footer>
+<script src="assets/site.js"></script>
+</body>
+</html>

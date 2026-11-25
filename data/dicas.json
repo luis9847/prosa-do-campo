@@ -1,0 +1,223 @@
+{
+ "atualizadoEm": "2026-11-25T18:00:00-03:00",
+ "dicas": [
+  {
+   "area": "cafe",
+   "titulo": "Adubação de cobertura parcelada nas águas",
+   "texto": "A adubação de produção deve ser dividida em várias parcelas durante o período chuvoso, com 40 a 60 dias entre elas, e duas aplicações devem estar feitas até dezembro. Solos arenosos pedem mais parcelamentos. A quantidade vem da análise de solo e da recomendação do agrônomo.",
+   "epoca": "Outubro a março",
+   "fonte": "Embrapa Café",
+   "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1148365/1/Sistemas-de-Producao-1-Cafe.pdf",
+   "data": "07/2022"
+  },
+  {
+   "area": "cafe",
+   "titulo": "Plantas daninhas: combine métodos e proteja o solo",
+   "texto": "A Cooxupé orienta combinar métodos, como roçada ou capina mecânica nas entrelinhas, enxada para as plantas que escaparam e plantas de cobertura entre as linhas. Algumas daninhas já resistem a certos herbicidas, então depender de um só método não resolve. A estratégia é definida com o agrônomo.",
+   "epoca": "Dezembro, no pico das chuvas",
+   "fonte": "Cooxupé (Hub do Café)",
+   "url": "https://hubdocafe.cooxupe.com.br/os-principais-cuidados-com-a-lavoura-de-cafe-em-dezembro/",
+   "data": "01/12/2022"
+  },
+  {
+   "area": "cafe",
+   "titulo": "Broca: monitore talhão por talhão",
+   "texto": "A Epamig recomenda monitorar a broca no período de trânsito, de novembro a janeiro, e seguir até abril. A cartilha indica começar o controle quando o índice chega a 3% de frutos furados ou mais, sempre com produto registrado e orientação técnica. Colher bem e retirar os frutos que sobram na planta e no chão também ajuda.",
+   "epoca": "Novembro a abril",
+   "fonte": "EPAMIG, cartilha Conhecendo a broca-do-café",
+   "url": "https://www.livrariaepamig.com.br/wp-content/uploads/2026/02/Conhecendo-a-Broca-do-cafe.pdf",
+   "data": "01/2026"
+  },
+  {
+   "area": "cafe",
+   "titulo": "Ferrugem: monitore todo mês e decida com dados",
+   "texto": "O artigo orienta amostrar 50 plantas por talhão e 50 folhas por planta e calcular a porcentagem de folhas com lesões esporuladas. A ferrugem se desenvolve melhor com 20 a 25 °C, umidade alta e pouca luz direta. A decisão deve se apoiar em monitoramento e orientação técnica.",
+   "epoca": "Período chuvoso, com avaliação mensal",
+   "fonte": "EPAMIG (Informe Agropecuário)",
+   "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1170653/1/monitoramento-climatico.pdf",
+   "data": "2024"
+  },
+  {
+   "area": "cafe",
+   "titulo": "Bicho-mineiro: atenção com calor e chuva irregular",
+   "texto": "Calor e estiagens aceleram o ciclo do bicho-mineiro e favorecem surtos. A Epamig recomenda monitorar a lavoura com frequência, mantê-la bem nutrida e conservar os inimigos naturais, com orientação do agrônomo antes de qualquer controle.",
+   "epoca": "Safra 2026/27, sobretudo com veranico",
+   "fonte": "EPAMIG, Circular Técnica 446",
+   "url": "https://www.livrariaepamig.com.br/wp-content/uploads/2026/08/CT-446.pdf",
+   "data": "07/2026"
+  },
+  {
+   "area": "cafe",
+   "titulo": "Plantas de cobertura entre as linhas",
+   "texto": "A Cooxupé destaca que misturas de plantas de cobertura ajudam a controlar a erosão, a elevar a matéria orgânica e a reter água. A palhada mantém a umidade e protege o solo da chuva forte.",
+   "epoca": "Verão chuvoso",
+   "fonte": "Cooxupé (Hub do Café)",
+   "url": "https://hubdocafe.cooxupe.com.br/cafeicultura-regenerativa-e-plantas-de-cobertura-fortalecem-manejo-sustentavel-nas-lavouras",
+   "data": "28/04/2026"
+  },
+  {
+   "area": "soja",
+   "titulo": "Preparar a soja para veranicos",
+   "texto": "A Embrapa Trigo recomenda combinar estratégias: semear dentro da janela do Zarc, manter palhada no plantio direto, corrigir acidez e alumínio do solo para aprofundar as raízes e escalonar a semeadura com cultivares de ciclos diferentes. Em seca extrema, as perdas podem ser inevitáveis.",
+   "epoca": "Planejamento e semeadura da safra 2026/27",
+   "fonte": "Embrapa Trigo, Circular Técnica 85",
+   "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1188597/1/Circular-Tecnica-85-online.pdf",
+   "data": "07/2026"
+  },
+  {
+   "area": "soja",
+   "titulo": "Solo, rotação, população e vazio sanitário",
+   "texto": "A Embrapa Soja orienta fazer análise química e corrigir a acidez antes do plantio direto, manter palhada e rotacionar culturas. Semente de qualidade e semeadora bem regulada evitam falhas, e é importante respeitar o vazio sanitário e evitar soja safrinha, que favorece a ferrugem-asiática.",
+   "epoca": "Antes e durante a semeadura",
+   "fonte": "Embrapa Soja",
+   "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1124080/1/Folder-01-prod.sustentavel-soja-2020.pdf",
+   "data": "2020"
+  },
+  {
+   "area": "milho",
+   "titulo": "Enfezamento e cigarrinha: planta cedo e elimine o milho voluntário",
+   "texto": "A Embrapa recomenda híbridos tolerantes, evitar plantio tardio e plantios sucessivos, eliminar o milho voluntário antes da semeadura e não plantar perto de lavouras com muita doença. O estudo testou uma safra e um local, então conclusões sobre densidade pedem cautela.",
+   "epoca": "Antes e durante a semeadura de verão",
+   "fonte": "Embrapa Milho e Sorgo, Boletim 274",
+   "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1188725/1/Avaliacao-de-hibridos-de-milho-quanto-ao-complexo-do-enfezamento.pdf",
+   "data": "07/2026"
+  },
+  {
+   "area": "corte",
+   "titulo": "Olhe o pasto antes de devolver o gado",
+   "texto": "Antes de reconduzir os animais aos piquetes, avalie a estrutura do pasto. Em piquete subpastejado, com muita macega, roce ou aumente a lotação e ofereça suplemento proteico no cocho. Em piquete rapado, adie a entrada até o capim se recuperar, para não esgotar as reservas da planta.",
+   "epoca": "Início das águas (outubro a dezembro)",
+   "fonte": "Epamig, via Secretaria de Agricultura de MG",
+   "url": "https://www.mg.gov.br/agricultura/noticias/epamig-orienta-sobre-periodo-de-transicao-seca-aguas",
+   "data": "14/10/2024"
+  },
+  {
+   "area": "corte",
+   "titulo": "Calcule o déficit de volumoso e use as águas para formar reservas",
+   "texto": "Estime a produção de forragem do ano e o consumo por categoria animal, com margem de segurança, para achar o déficit da seca. A Epamig cita conservação de forragem, capineira, canavial e diferimento como caminhos, e diz que as águas são a época ideal para começar a produzir esse alimento.",
+   "epoca": "Durante as águas",
+   "fonte": "Epamig, via Agência Minas",
+   "url": "https://www.agenciaminas.mg.gov.br/noticia/epamig-orienta-sobre-planejamento-forrageiro-no-periodo-de-chuvas-127992",
+   "data": "23/10/2025"
+  },
+  {
+   "area": "corte",
+   "titulo": "Altura do pasto e suplementação nas águas",
+   "texto": "Meça a altura do pasto com frequência e ajuste a entrada e a saída dos animais conforme a oferta de forragem. Nas águas, sal mineral à vontade costuma bastar para manutenção e ganhos moderados, e o suplemento proteico-energético fica para quem busca ganhos maiores.",
+   "epoca": "Águas (novembro a março)",
+   "fonte": "Embrapa Gado de Corte, Comunicado Técnico 174",
+   "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1168478/1/Calendario-pastagem-formacao-manejo-2024.pdf",
+   "data": "10/2024"
+  },
+  {
+   "area": "recria",
+   "titulo": "Condicionamento pós-desmama",
+   "texto": "Para bezerros recém-desmamados em pasto de menor qualidade, a Embrapa descreve o condicionamento: suplemento proteico-energético por 30 a 50 dias, em cocho com espaço suficiente, horário fixo e tratador presente. Os resultados ainda são preliminares, então compare custo e benefício antes de adotar.",
+   "epoca": "Logo após a desmama",
+   "fonte": "Embrapa Gado de Corte, Comunicado Técnico 149",
+   "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1137890/1/COT-149-Final-em-alta.pdf",
+   "data": "11/2021"
+  },
+  {
+   "area": "recria",
+   "titulo": "Metas de peso para recriar novilhas precoces",
+   "texto": "O protocolo +Precoce recomenda priorizar as bezerras mais pesadas à desmama, com condição corporal entre 3 e 4, e não indica o protocolo para fêmeas com menos de 180 kg nessa fase. A meta é chegar ao início da estação reprodutiva com pelo menos 260 kg e condição corporal acima de 3.",
+   "epoca": "Desmama e recria",
+   "fonte": "Embrapa Gado de Corte, Comunicado Técnico 168",
+   "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1156570/1/Protocolo-Embrapa-Precoce-14-2023.pdf",
+   "data": "08/2023"
+  },
+  {
+   "area": "leite",
+   "titulo": "Mastite: teste da caneca, CMT e ordem de ordenha",
+   "texto": "Faça o teste da caneca de fundo escuro antes de cada ordenha e o CMT ao menos uma vez por mês nas vacas em lactação. Ordenhe por último as vacas com mastite. A cartilha trata como suspeita de mastite subclínica a vaca com mais de 200 mil células por mL. O tratamento é orientado pelo médico-veterinário.",
+   "epoca": "O ano todo; reforçar nas águas",
+   "fonte": "Embrapa Gado de Leite, cartilha sobre mastite",
+   "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1038822/1/CartilhaMastitecompleta.pdf",
+   "data": "2015"
+  },
+  {
+   "area": "leite",
+   "titulo": "Sombra e resfriamento para as vacas no calor",
+   "texto": "A Epamig recomenda sombra, resfriamento e água de boa qualidade em clima tropical. Segundo a pesquisadora, o sombreamento bem projetado pode reduzir a carga de calor total em 30% a 50%.",
+   "epoca": "Verão",
+   "fonte": "Epamig, via Secretaria de Agricultura de MG",
+   "url": "https://www.mg.gov.br/agricultura/noticias/conheca-os-beneficios-do-sombreamento-e-do-resfriamento-na-pecuaria-leiteira",
+   "data": "30/12/2020"
+  },
+  {
+   "area": "leite",
+   "titulo": "Controle de custos: o primeiro passo da gestão",
+   "texto": "A Epamig destaca o controle de custos como um dos maiores desafios da atividade leiteira. Registrar receitas e despesas permite chegar ao custo do litro e às margens e ajuda a achar ajustes no sistema.",
+   "epoca": "O ano todo; revisar a cada mês",
+   "fonte": "Epamig, via Secretaria de Agricultura de MG",
+   "url": "https://www.mg.gov.br/agricultura/noticias/epamig-lanca-aplicativo-gratuito-para-gerenciamento-de-custos-na-atividade-leiteira",
+   "data": "sem data"
+  }
+ ],
+ "artigos": [
+  {
+   "area": "cafe",
+   "titulo": "Efeitos do El Niño nas pragas do cafeeiro com ênfase no bicho-mineiro-do-cafeeiro",
+   "fonte": "EPAMIG, Circular Técnica 446",
+   "data": "07/2026",
+   "url": "https://www.livrariaepamig.com.br/wp-content/uploads/2026/08/CT-446.pdf"
+  },
+  {
+   "area": "cafe",
+   "titulo": "Conhecendo a broca-do-café",
+   "fonte": "EPAMIG",
+   "data": "01/2026",
+   "url": "https://www.livrariaepamig.com.br/wp-content/uploads/2026/02/Conhecendo-a-Broca-do-cafe.pdf"
+  },
+  {
+   "area": "cafe",
+   "titulo": "Boas práticas agrícolas aplicadas à lavoura cafeeira para o estado de Minas Gerais",
+   "fonte": "Embrapa Café",
+   "data": "07/2022",
+   "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1148365/1/Sistemas-de-Producao-1-Cafe.pdf"
+  },
+  {
+   "area": "soja",
+   "titulo": "Estratégias de manejo para redução de perdas de produtividade da soja sob déficit hídrico",
+   "fonte": "Embrapa Trigo, Circular Técnica 85",
+   "data": "07/2026",
+   "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1188597/1/Circular-Tecnica-85-online.pdf"
+  },
+  {
+   "area": "milho",
+   "titulo": "Avaliação de híbridos de milho quanto ao complexo do enfezamento em diferentes densidades de plantio",
+   "fonte": "Embrapa Milho e Sorgo, Boletim 274",
+   "data": "07/2026",
+   "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1188725/1/Avaliacao-de-hibridos-de-milho-quanto-ao-complexo-do-enfezamento.pdf"
+  },
+  {
+   "area": "corte",
+   "titulo": "Calendário da Pastagem: Formação e manejo",
+   "fonte": "Embrapa Gado de Corte, Comunicado Técnico 174",
+   "data": "10/2024",
+   "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1168478/1/Calendario-pastagem-formacao-manejo-2024.pdf"
+  },
+  {
+   "area": "recria",
+   "titulo": "Condicionamento: uma técnica para melhorar o desempenho de bovinos na fase pós-desmama",
+   "fonte": "Embrapa Gado de Corte, Comunicado Técnico 149",
+   "data": "11/2021",
+   "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1137890/1/COT-149-Final-em-alta.pdf"
+  },
+  {
+   "area": "leite",
+   "titulo": "Caderno do produtor de leite",
+   "fonte": "Embrapa Clima Temperado",
+   "data": "2023",
+   "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1158823/1/Caderno-produtor-leite.pdf"
+  },
+  {
+   "area": "leite",
+   "titulo": "Momento da adubação nitrogenada em pastagens intensivamente manejadas",
+   "fonte": "Embrapa Gado de Leite, Circular Técnica 125",
+   "data": "10/2020",
+   "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1126990/1/CT-125-Adubacao-nitrog-pastagens.pdf"
+  }
+ ]
+}
