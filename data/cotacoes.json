@@ -1,0 +1,154 @@
+{
+  "atualizadoEm": "2026-11-25T16:30:00-03:00",
+  "aviso": "Preços de praças de Minas Gerais, reunidos de portais do setor (BBM, Conseleite-MG, Cepea, Avimig, Conab, CeasaMinas e cooperativas de café). A data de cada preço aparece na linha, e alguns são de dias anteriores. Antes de fechar negócio, confirme na fonte original.",
+  "dolar": {
+    "valor": 5.815,
+    "variacaoPct": -1.62,
+    "hora": "14h25",
+    "data": "25/11/2026",
+    "tipo": "Durante o pregão",
+    "ptax": "R$ 5,8825",
+    "fonte": "BPMoney",
+    "url": "https://bpmoney.com.br/mercado/cambio/dolar-hoje-cai-162-a-r-581-25-11-2026/",
+    "nota": "O dólar mudou de direção durante o dia, por isso as fontes mostram valores diferentes. O último valor registrado não é o fechamento. A variação é sobre o fechamento do dia anterior.",
+    "linhas": [
+      { "hora": "9h14", "valor": "R$ 5,932", "variacao": "+0,39%", "cls": "up", "fonte": "Istoé Dinheiro", "url": "https://istoedinheiro.com.br/dolar-hoje-25-11-2026-cotacao-leiloes-bc" },
+      { "hora": "13h10", "sub": "PTAX, venda", "valor": "R$ 5,8825", "variacao": "referência do BC", "cls": "", "fonte": "Piranot", "url": "https://www.piranot.com.br/2026/11/25/noticias/economia/dolar-ptax-fecha-em-r-58825-nesta-quarta-feira-25-11-2026-veja-a/" },
+      { "hora": "14h25", "valor": "R$ 5,815", "variacao": "−1,62%", "cls": "down", "fonte": "BPMoney", "url": "https://bpmoney.com.br/mercado/cambio/dolar-hoje-cai-162-a-r-581-25-11-2026/" }
+    ]
+  },
+  "ticker": [
+    { "k": "Boi gordo MG", "v": "390 a 400", "u": "R$/@", "d": "24/11", "dir": null },
+    { "k": "Soja MG", "v": "160,00", "u": "R$/sc", "d": "25/11", "dir": 1 },
+    { "k": "Milho MG", "v": "63,00", "u": "R$/sc", "d": "25/11", "dir": 0 },
+    { "k": "Café Guaxupé", "v": "1.747,00", "u": "R$/sc", "d": "25/11, 15h57", "dir": -1 },
+    { "k": "Café Varginha", "v": "1.670,00", "u": "R$/sc", "d": "25/11, 15h57", "dir": -1 },
+    { "k": "Café Poços", "v": "1.720,00", "u": "R$/sc", "d": "25/11, 15h57", "dir": -1 },
+    { "k": "Café Machado", "v": "1.750,00", "u": "R$/sc", "d": "25/11, 15h57", "dir": -1 },
+    { "k": "Café Araguari", "v": "1.750,00", "u": "R$/sc", "d": "25/11, 15h57", "dir": -1 },
+    { "k": "Feijão", "v": "314,74", "u": "R$/sc", "d": "25/11", "dir": 1 },
+    { "k": "Leite MG", "v": "2,81", "u": "R$/litro", "d": "out/26", "dir": null },
+    { "k": "Frango MG", "v": "5,50", "u": "R$/kg", "d": "25/11", "dir": 0 }
+  ],
+  "paineis": [
+    {
+      "icone": "boi", "titulo": "Boi de corte", "sub": "R$ por arroba",
+      "blocos": [{
+        "colunas": ["Praça", "Preço", "Variação", "Data"],
+        "linhas": [["Norte de Minas (faixa de negócios)", { "t": "390 a 400", "cls": "val" }, { "t": "+5 na semana", "cls": "up" }, { "t": "24/11", "cls": "dt" }]],
+        "nota": "Sul de Minas, vaca gorda, novilha e bezerro de Minas: ainda sem preço confirmado.",
+        "fontes": [{ "t": "Floresta Notícias, com dados do Cepea", "u": "https://www.florestanoticias.com/2026/11/25/boi-gordo-registra-novas-altas-mas-mercado-da-sinais-de-estabilizacao-aponta-cepea/" }]
+      }]
+    },
+    {
+      "icone": "leite", "titulo": "Leite", "sub": "R$ por litro, Minas Gerais",
+      "blocos": [{
+        "colunas": ["Referência", "Preço", "Período"],
+        "linhas": [
+          ["Conseleite-MG, valor de referência", { "t": "2,81", "cls": "val" }, { "t": "leite de outubro", "cls": "dt" }],
+          ["Cepea, pago ao produtor mineiro", { "t": "3,044", "cls": "val" }, { "t": "pago em setembro", "cls": "dt" }]
+        ],
+        "nota": "São dois indicadores diferentes e os períodos não coincidem, por isso os valores não são comparáveis entre si.",
+        "fontes": [
+          { "t": "O Tempo (Conseleite-MG)", "u": "https://www.otempo.com.br/agro/2026/11/25/cotacoes-do-agro-em-minas-25-11-2026" },
+          { "t": "Diário do Comércio (Cepea)", "u": "https://diariodocomercio.com.br/agronegocio/preco-leite-minas-gerais/" }
+        ]
+      }]
+    },
+    {
+      "icone": "grao", "titulo": "Grãos e feijão", "sub": "R$ por saca",
+      "blocos": [{
+        "colunas": ["Produto e praça", "Preço", "Dia", "Data"],
+        "linhas": [
+          [{ "t": "Soja", "s": "Uberlândia e Uberaba" }, { "t": "160,00", "cls": "val" }, { "t": "+0,98%", "cls": "up" }, { "t": "25/11", "cls": "dt" }],
+          [{ "t": "Milho", "s": "Uberlândia e Uberaba" }, { "t": "63,00", "cls": "val" }, "estável", { "t": "25/11", "cls": "dt" }],
+          [{ "t": "Feijão", "s": "Paracatu e Unaí" }, { "t": "314,74", "cls": "val" }, { "t": "+0,36%", "cls": "up" }, { "t": "25/11", "cls": "dt" }]
+        ],
+        "nota": "A variação do dia é a média das praças acompanhadas.",
+        "fontes": [{ "t": "O Tempo, com dados da BBM", "u": "https://www.otempo.com.br/agro/2026/11/25/cotacoes-do-agro-em-minas-25-11-2026" }]
+      }]
+    },
+    {
+      "icone": "cesta", "titulo": "Outros produtos", "sub": "Minas Gerais",
+      "blocos": [{
+        "colunas": ["Produto", "Preço", "Dia", "Data"],
+        "linhas": [
+          [{ "t": "Frango", "s": "R$ por kg, Avimig" }, { "t": "5,50", "cls": "val" }, "estável", { "t": "25/11", "cls": "dt" }],
+          [{ "t": "Algodão em pluma", "s": "R$ por kg, Conab" }, { "t": "9,18", "cls": "val" }, "sem dado", { "t": "sem data", "cls": "dt" }],
+          [{ "t": "Banana prata", "s": "R$ por kg, atacado de BH, CeasaMinas" }, { "t": "3,50", "cls": "val" }, "sem dado", { "t": "25/11", "cls": "dt" }]
+        ],
+        "nota": "Suíno vivo e ovos de Minas: ainda sem valor de novembro de 2026 confirmado.",
+        "fontes": [{ "t": "O Tempo", "u": "https://www.otempo.com.br/agro/2026/11/25/cotacoes-do-agro-em-minas-25-11-2026" }]
+      }]
+    },
+    {
+      "icone": "cafe", "titulo": "Café", "sub": "R$ por saca de 60 kg, praças de Minas Gerais", "wide": true, "duasColunas": true,
+      "blocos": [
+        {
+          "titulo": "Arábica tipo 6, bebida dura (bica corrida) · 25/11, 15h57",
+          "colunas": ["Praça", "Preço", "Dia"],
+          "linhas": [
+            [{ "t": "Guaxupé", "s": "Cooxupé · Sul de Minas" }, { "t": "1.747,00", "cls": "val" }, { "t": "−3,05%", "cls": "down" }],
+            [{ "t": "Poços de Caldas", "s": "CaféPoços · Sul de Minas" }, { "t": "1.720,00", "cls": "val" }, { "t": "−1,15%", "cls": "down" }],
+            [{ "t": "Varginha", "s": "Minasul · Sul de Minas" }, { "t": "1.670,00", "cls": "val" }, { "t": "−2,34%", "cls": "down" }],
+            [{ "t": "Machado", "s": "Coopama · Sul de Minas" }, { "t": "1.750,00", "cls": "val" }, { "t": "−1,69%", "cls": "down" }],
+            [{ "t": "Campos Gerais", "s": "Coopercam · Sul de Minas" }, { "t": "1.705,00", "cls": "val" }, { "t": "−2,29%", "cls": "down" }],
+            [{ "t": "Araguari", "s": "Coocacer · Cerrado Mineiro" }, { "t": "1.750,00", "cls": "val" }, { "t": "−2,78%", "cls": "down" }],
+            [{ "t": "Patrocínio", "s": "Expocaccer · Cerrado Mineiro" }, { "t": "1.740,00", "cls": "val" }, "sem dado"]
+          ],
+          "nota": "Valores durante o pregão, que são estimativas. A variação é sobre o fechamento anterior. A mesma página lista outras praças de Minas com o mesmo valor por região, e por isso mostrei só as cooperativas com cotação própria.",
+          "fontes": [{ "t": "Cotação do Café", "u": "https://cotacaodocafe.com/cotacao/cafe-arabica-minas-gerais/" }]
+        },
+        {
+          "titulo": "Cereja descascado · fechamento de 23/11",
+          "colunas": ["Praça", "Preço", "Dia"],
+          "linhas": [
+            [{ "t": "Poços de Caldas", "s": "CaféPoços" }, { "t": "1.870,00", "cls": "val" }, { "t": "−1,58%", "cls": "down" }],
+            [{ "t": "Guaxupé", "s": "Cooxupé" }, { "t": "1.865,00", "cls": "val" }, { "t": "−1,58%", "cls": "down" }],
+            [{ "t": "Patrocínio", "s": "Expocaccer" }, { "t": "1.830,00", "cls": "val" }, "sem dado"],
+            [{ "t": "Varginha", "s": "Minasul" }, { "t": "1.810,00", "cls": "val" }, "estável"]
+          ],
+          "fontes": [{ "t": "Café em Foco, Muzambinho.com", "u": "https://muzambinho.com.br/2026/11/23/cafe-em-foco-23-11-26-cotacoes-e-informacoes-da-cafeicultura/" }]
+        },
+        {
+          "titulo": "Referências nacionais, não são de Minas",
+          "colunas": ["Indicador", "Preço", "Dia", "Data"],
+          "linhas": [
+            ["Arábica Cepea/Esalq", { "t": "1.692,77", "cls": "val" }, { "t": "−0,95%", "cls": "down" }, { "t": "23/11", "cls": "dt" }],
+            ["Robusta (conilon) Cepea", { "t": "957,74", "cls": "val" }, { "t": "−0,24%", "cls": "down" }, { "t": "18/11", "cls": "dt" }]
+          ],
+          "fontes": [
+            { "t": "Muzambinho.com", "u": "https://muzambinho.com.br/2026/11/23/cafe-em-foco-23-11-26-cotacoes-e-informacoes-da-cafeicultura/" },
+            { "t": "Brasil 61", "u": "https://brasil61.com/n/cafe-acucar-e-milho-confira-cotacoes-para-esta-quinta-feira-19-pagr266657" }
+          ]
+        }
+      ],
+      "rodape": "Ainda sem preço confirmado de Minas para café bebida mole, rio, riado, natural fino e cafés especiais, nem para conilon em praça mineira."
+    },
+    {
+      "icone": "folha", "titulo": "Hortifrúti na Ceasa Minas", "sub": "média semanal, 2 a 6 de novembro", "wide": true,
+      "blocos": [{
+        "colunas": ["Produto", "R$ por kg", "Semana anterior", "Variação"],
+        "linhas": [
+          ["Tomate italiano extra AA", { "t": "13,50", "cls": "val" }, "11,67", { "t": "+15,71%", "cls": "up" }],
+          ["Batata lisa Ágata especial", { "t": "3,47", "cls": "val" }, "3,47", "estável"],
+          ["Cebola amarela mineira", { "t": "6,33", "cls": "val" }, "5,83", { "t": "+8,57%", "cls": "up" }],
+          ["Cenoura extra A", { "t": "2,08", "cls": "val" }, "2,17", { "t": "−3,85%", "cls": "down" }],
+          ["Alho brasileiro nº 5/6", { "t": "17,33", "cls": "val" }, "17,00", { "t": "+1,96%", "cls": "up" }],
+          ["Chuchu extra", { "t": "0,86", "cls": "val" }, "1,92", { "t": "−55,46%", "cls": "down" }],
+          ["Pimentão verde extra", { "t": "2,22", "cls": "val" }, "2,22", "estável"],
+          ["Quiabo extra", { "t": "5,27", "cls": "val" }, "6,25", { "t": "−15,58%", "cls": "down" }]
+        ],
+        "nota": "Boletim semanal de preços de hortaliças da Seapa-MG, com dados da Ceasa Minas. É o boletim mais recente que consegui abrir, então os valores de hoje podem ser diferentes.",
+        "fontes": [{ "t": "Abrir o boletim", "u": "https://www.mg.gov.br/system/files/media/agricultura/documento_detalhado/2026/dados-conjunturais/boletim-semanal-de-precos-hortalicas/precos-hortalicas-semanal-26-10-26-1.pdf" }]
+      }]
+    }
+  ],
+  "noticias": [
+    { "categoria": "Café e soja", "fonte": "O Tempo", "data": "25/11", "titulo": "Café cai 2,46% e soja sobe 0,98% nas cotações agro de Minas", "url": "https://www.otempo.com.br/agro/2026/11/25/cotacoes-do-agro-em-minas-25-11-2026" },
+    { "categoria": "Soja", "fonte": "O Tempo", "data": "24/11", "titulo": "Soja sobe 1,14% em Minas e iguala o maior preço em 12 meses", "url": "https://www.otempo.com.br/agro/2026/11/24/cotacoes-do-agro-em-minas-24-11-2026" },
+    { "categoria": "Café", "fonte": "O Tempo", "data": "23/11", "titulo": "Café sobe 0,95% em Minas e lidera alta do agro nesta segunda-feira", "url": "https://www.otempo.com.br/agro/2026/11/23/cotacoes-do-agro-em-minas-23-11-2026" },
+    { "categoria": "Café", "fonte": "O Tempo", "data": "18/11", "titulo": "Café sobe 2,02% em Guaxupé e lidera alta do agro em Minas", "url": "https://www.otempo.com.br/agro/2026/11/18/cotacoes-do-agro-em-minas-18-11-2026" },
+    { "categoria": "Leite", "fonte": "Diário do Comércio", "data": "14/10", "titulo": "Importações e insumos mais caros desafiam produtor de leite em Minas Gerais", "url": "https://diariodocomercio.com.br/agronegocio/preco-leite-minas-gerais/" }
+  ]
+}
