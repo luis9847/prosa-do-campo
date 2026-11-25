@@ -86,6 +86,17 @@ nav.sections a.nav-usd:hover { color: var(--ink); border-color: var(--accent); }
 nav.sections a { white-space: nowrap; text-decoration: none; color: var(--muted); font-weight: 500; font-size: 0.9rem; }
 nav.sections a:hover { color: var(--accent); }
 
+.wx-tools { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; margin-bottom: 14px; }
+.pick-city { display: flex; align-items: center; gap: 8px; min-width: 0; }
+.pick-city label { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); font-weight: 600; }
+.pick-city select { max-width: 100%; }
+.city-search { display: flex; gap: 8px; flex: 1; min-width: 240px; }
+.city-search input { flex: 1; min-width: 0; font: inherit; padding: 8px 10px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); color: var(--ink); }
+.city-search button { font: inherit; font-weight: 600; padding: 8px 16px; border: 0; border-radius: 6px; background: var(--accent); color: var(--accent-ink); cursor: pointer; }
+.city-results { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: -4px 0 14px; }
+.city-results button { font: inherit; padding: 6px 12px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--ink); cursor: pointer; }
+.city-results button:hover { border-color: var(--accent); color: var(--accent); }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .hero { margin: 20px 0 0; border-radius: 8px; overflow: hidden; border: 1px solid var(--line); background: var(--surface); position: relative; }
 .hero svg { display: block; width: 100%; height: 170px; }
 .hero figcaption { position: absolute; left: 14px; bottom: 10px; color: var(--accent-ink); font-family: var(--font-display); font-weight: 800; font-size: 1.05rem; }
@@ -198,10 +209,6 @@ footer { border-top: 1px solid var(--line); padding-block: 20px 28px; color: var
         <p id="today">Notícias, clima e cotações para o produtor mineiro</p>
       </div>
     </div>
-    <div class="pick">
-      <label for="city">Cidade</label>
-      <select id="city"></select>
-    </div>
   </div>
 </header>
 
@@ -247,6 +254,15 @@ footer { border-top: 1px solid var(--line); padding-block: 20px 28px; color: var
       <h2 id="h-clima">Clima e alertas</h2>
       <span class="sub"><span id="wx-status" class="tag">Carregando…</span></span>
     </header>
+    <div class="wx-tools">
+      <div class="pick-city"><label for="city">Cidade</label><select id="city"></select></div>
+      <form class="city-search" id="city-form" role="search">
+        <label for="city-q" class="sr">Buscar outra cidade de Minas</label>
+        <input id="city-q" type="search" placeholder="Buscar outra cidade de Minas" autocomplete="off" maxlength="60">
+        <button type="submit">Buscar</button>
+      </form>
+    </div>
+    <div id="city-results" class="city-results" aria-live="polite" hidden></div>
     <div class="weather">
       <div class="panel now" aria-live="polite">
         <div class="place" id="wx-place"></div>
@@ -444,26 +460,52 @@ function loadData() {
 
 /* Clima */
 var CITIES = [
-  { n: "Varginha", lat: -21.55, lon: -45.43, g: "Sul de Minas" },
+  { n: "Alfenas", lat: -21.43, lon: -45.95, g: "Sul de Minas" },
+  { n: "Andradas", lat: -22.07, lon: -46.57, g: "Sul de Minas" },
+  { n: "Areado", lat: -21.36, lon: -46.14, g: "Sul de Minas" },
+  { n: "Boa Esperança", lat: -21.09, lon: -45.57, g: "Sul de Minas" },
+  { n: "Cambuquira", lat: -21.85, lon: -45.30, g: "Sul de Minas" },
+  { n: "Campanha", lat: -21.84, lon: -45.40, g: "Sul de Minas" },
+  { n: "Campos Gerais", lat: -21.24, lon: -45.76, g: "Sul de Minas" },
+  { n: "Carmo de Minas", lat: -22.12, lon: -45.13, g: "Sul de Minas" },
+  { n: "Cássia", lat: -20.58, lon: -46.92, g: "Sul de Minas" },
+  { n: "Caxambu", lat: -21.98, lon: -44.93, g: "Sul de Minas" },
+  { n: "Elói Mendes", lat: -21.61, lon: -45.57, g: "Sul de Minas" },
+  { n: "Extrema", lat: -22.85, lon: -46.32, g: "Sul de Minas" },
+  { n: "Guaxupé", lat: -21.31, lon: -46.71, g: "Sul de Minas" },
+  { n: "Itajubá", lat: -22.42, lon: -45.45, g: "Sul de Minas" },
   { n: "Lavras", lat: -21.25, lon: -45.00, g: "Sul de Minas" },
+  { n: "Machado", lat: -21.68, lon: -45.92, g: "Sul de Minas" },
+  { n: "Monte Santo de Minas", lat: -21.19, lon: -46.98, g: "Sul de Minas" },
+  { n: "Muzambinho", lat: -21.37, lon: -46.53, g: "Sul de Minas" },
+  { n: "Nepomuceno", lat: -21.23, lon: -45.23, g: "Sul de Minas" },
+  { n: "Ouro Fino", lat: -22.28, lon: -46.37, g: "Sul de Minas" },
+  { n: "Paraguaçu", lat: -21.55, lon: -45.74, g: "Sul de Minas" },
+  { n: "Passos", lat: -20.72, lon: -46.61, g: "Sul de Minas" },
   { n: "Poços de Caldas", lat: -21.79, lon: -46.56, g: "Sul de Minas" },
   { n: "Pouso Alegre", lat: -22.23, lon: -45.94, g: "Sul de Minas" },
-  { n: "Três Corações", lat: -21.69, lon: -45.25, g: "Sul de Minas" },
-  { n: "Passos", lat: -20.72, lon: -46.61, g: "Sul de Minas" },
+  { n: "Santa Rita do Sapucaí", lat: -22.25, lon: -45.71, g: "Sul de Minas" },
+  { n: "São Lourenço", lat: -22.12, lon: -45.05, g: "Sul de Minas" },
   { n: "São Sebastião do Paraíso", lat: -20.92, lon: -46.99, g: "Sul de Minas" },
-  { n: "Alfenas", lat: -21.43, lon: -45.95, g: "Sul de Minas" },
-  { n: "Guaxupé", lat: -21.31, lon: -46.71, g: "Sul de Minas" },
-  { n: "Machado", lat: -21.68, lon: -45.92, g: "Sul de Minas" },
+  { n: "Três Corações", lat: -21.69, lon: -45.25, g: "Sul de Minas" },
+  { n: "Três Pontas", lat: -21.37, lon: -45.51, g: "Sul de Minas" },
+  { n: "Varginha", lat: -21.55, lon: -45.43, g: "Sul de Minas" },
   { n: "Campo Belo", lat: -20.90, lon: -45.28, g: "Centro-Oeste" },
-  { n: "Uberaba", lat: -19.75, lon: -47.93, g: "Triângulo" },
+  { n: "Divinópolis", lat: -20.14, lon: -44.88, g: "Centro-Oeste" },
   { n: "Araguari", lat: -18.65, lon: -48.19, g: "Triângulo" },
-  { n: "Patrocínio", lat: -18.94, lon: -46.99, g: "Alto Paranaíba" },
+  { n: "Uberaba", lat: -19.75, lon: -47.93, g: "Triângulo" },
+  { n: "Uberlândia", lat: -18.92, lon: -48.28, g: "Triângulo" },
   { n: "Patos de Minas", lat: -18.58, lon: -46.52, g: "Alto Paranaíba" },
+  { n: "Patrocínio", lat: -18.94, lon: -46.99, g: "Alto Paranaíba" },
+  { n: "Paracatu", lat: -17.22, lon: -46.87, g: "Noroeste" },
+  { n: "Unaí", lat: -16.36, lon: -46.91, g: "Noroeste" },
   { n: "Montes Claros", lat: -16.73, lon: -43.86, g: "Norte de Minas" },
   { n: "Governador Valadares", lat: -18.85, lon: -41.95, g: "Vale do Rio Doce" },
   { n: "Juiz de Fora", lat: -21.76, lon: -43.35, g: "Zona da Mata" },
+  { n: "Manhuaçu", lat: -20.26, lon: -42.03, g: "Zona da Mata" },
   { n: "Belo Horizonte", lat: -19.92, lon: -43.94, g: "Região Central" }
 ];
+var current = CITIES.filter(function (c) { return c.n === "Varginha"; })[0];
 var WMO = function (c) {
   if (c === 0) return "Céu limpo";
   if (c <= 2) return "Poucas nuvens";
@@ -525,11 +567,64 @@ function weatherUnavailable(c) {
   $("alerts").innerHTML = '<div class="alert warn"><strong>Não foi possível obter a previsão</strong>Atualize a página em instantes e consulte o INMET e a Defesa Civil.</div>';
   $("days").innerHTML = "";
 }
+function saveCity() { try { localStorage.setItem("prosa-cidade", JSON.stringify(current)); } catch (e) {} }
 function loadWeather() {
-  var c = CITIES[+$("city").value];
-  fetchWeather(c).then(function (w) { if (CITIES[+$("city").value] === c) renderWeather(c, w); })
-    .catch(function () { if (CITIES[+$("city").value] !== c) return; if (PREVIEW) renderWeather(c, sampleWeather()); else weatherUnavailable(c); });
-  try { localStorage.setItem("prosa-cidade", $("city").value); } catch (e) {}
+  var c = current;
+  fetchWeather(c).then(function (w) { if (current === c) renderWeather(c, w); })
+    .catch(function () { if (current !== c) return; if (PREVIEW) renderWeather(c, sampleWeather()); else weatherUnavailable(c); });
+}
+function buildCitySelect() {
+  var sel = $("city"), groups = [], byGroup = {};
+  CITIES.forEach(function (c, i) { if (!byGroup[c.g]) { byGroup[c.g] = []; groups.push(c.g); } byGroup[c.g].push(i); });
+  var html = "";
+  groups.forEach(function (g) {
+    html += '<optgroup label="' + esc(g) + '">' + byGroup[g].map(function (i) { return '<option value="' + i + '">' + esc(CITIES[i].n) + "</option>"; }).join("") + "</optgroup>";
+  });
+  html += '<optgroup label="Cidade buscada" id="custom-group" hidden><option value="custom" id="custom-opt"></option></optgroup>';
+  sel.innerHTML = html;
+}
+function syncSelect() {
+  var idx = CITIES.indexOf(current);
+  if (idx >= 0) { $("city").value = String(idx); $("custom-group").hidden = true; return; }
+  $("custom-opt").textContent = current.n;
+  $("custom-group").hidden = false;
+  $("city").value = "custom";
+}
+function chooseCity(c) { current = c; saveCity(); syncSelect(); loadWeather(); }
+function inMinas(x) {
+  return x && x.admin1 === "Minas Gerais" && isFinite(x.latitude) && isFinite(x.longitude) && x.latitude < -14 && x.latitude > -23.5 && x.longitude > -52 && x.longitude < -39;
+}
+function searchCity(q) {
+  var url = "https://geocoding-api.open-meteo.com/v1/search?name=" + encodeURIComponent(q) + "&count=20&language=pt&format=json&countryCode=BR";
+  return fetch(url).then(function (r) { if (!r.ok) throw new Error("http"); return r.json(); }).then(function (j) {
+    var seen = {}, out = [];
+    (j.results || []).filter(inMinas).forEach(function (x) {
+      var k = x.name + "|" + x.latitude.toFixed(1) + "|" + x.longitude.toFixed(1);
+      if (!seen[k]) { seen[k] = 1; out.push({ n: x.name, lat: +x.latitude, lon: +x.longitude, g: "Minas Gerais" }); }
+    });
+    return out;
+  });
+}
+function showResults(list, msg) {
+  var box = $("city-results");
+  box.hidden = false;
+  if (msg) { box.innerHTML = '<span class="sub">' + esc(msg) + "</span>"; return; }
+  box.innerHTML = list.map(function (c, i) { return '<button type="button" data-i="' + i + '">' + esc(c.n) + "</button>"; }).join("");
+  Array.prototype.forEach.call(box.querySelectorAll("button"), function (b) {
+    b.addEventListener("click", function () { box.hidden = true; $("city-q").value = ""; chooseCity(list[+b.getAttribute("data-i")]); });
+  });
+}
+function initCitySearch() {
+  $("city-form").addEventListener("submit", function (ev) {
+    ev.preventDefault();
+    var q = $("city-q").value.trim();
+    if (q.length < 2) { showResults([], "Digite pelo menos 2 letras do nome da cidade."); return; }
+    showResults([], "Buscando…");
+    searchCity(q).then(function (list) {
+      if (!list.length) showResults([], "Nenhuma cidade de Minas Gerais encontrada com esse nome.");
+      else showResults(list);
+    }).catch(function () { showResults([], "Não foi possível buscar agora. Escolha uma cidade da lista."); });
+  });
 }
 function initTabs() {
   var tabs = [["tab-agro", "panel-agro"], ["tab-usd", "panel-usd"]];
@@ -544,10 +639,21 @@ function initTabs() {
   });
 }
 (function init() {
-  var sel = $("city");
-  sel.innerHTML = CITIES.map(function (c, i) { return '<option value="' + i + '">' + esc(c.n) + "</option>"; }).join("");
-  try { var saved = localStorage.getItem("prosa-cidade"); if (saved !== null && CITIES[+saved]) sel.value = saved; } catch (e) {}
-  sel.addEventListener("change", loadWeather);
+  buildCitySelect();
+  try {
+    var saved = JSON.parse(localStorage.getItem("prosa-cidade") || "null");
+    if (saved && typeof saved.n === "string" && isFinite(saved.lat) && isFinite(saved.lon) && saved.lat < -14 && saved.lat > -23.5 && saved.lon > -52 && saved.lon < -39) {
+      var known = CITIES.filter(function (c) { return c.n === saved.n; })[0];
+      current = known || { n: saved.n.slice(0, 60), lat: +saved.lat, lon: +saved.lon, g: "Minas Gerais" };
+    }
+  } catch (e) {}
+  syncSelect();
+  $("city").addEventListener("change", function () {
+    var v = $("city").value;
+    if (v === "custom") return;
+    chooseCity(CITIES[+v]);
+  });
+  initCitySearch();
   $("today").textContent = new Intl.DateTimeFormat("pt-BR", { weekday: "long", day: "numeric", month: "long", year: "numeric" }).format(new Date());
   initTabs();
   loadData();
