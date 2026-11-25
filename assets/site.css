@@ -237,3 +237,6 @@ nav.sections .links a[aria-current="page"] { color: var(--accent); font-weight: 
 .banner img { display: block; width: 300px; height: 300px; border-radius: 6px; object-fit: contain; background: #0c1b33; box-shadow: 0 4px 18px rgba(0,0,0,.25); }
 @media (max-width: 760px) { .banner { grid-template-columns: minmax(0, 1fr) 36%; gap: 12px; padding: 14px; } .banner h2 { font-size: 1.3rem; } .banner p { font-size: 0.8rem; margin-top: 6px; } .banner img { width: 100%; height: auto; aspect-ratio: 1 / 1; } }
 
+
+.hero.hero-page img { width: 100%; height: auto; aspect-ratio: 2080 / 800; object-fit: cover; }
+@media (max-width: 760px) { .hero.hero-page img { height: 200px; aspect-ratio: auto; } }
