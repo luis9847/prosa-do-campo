@@ -230,5 +230,6 @@ nav.sections .links a[aria-current="page"] { color: var(--accent); font-weight: 
 .hero img { display: block; width: 100%; height: 340px; object-fit: cover; object-position: center 40%; }
 .hero figcaption { text-shadow: 0 1px 6px rgba(0,0,0,.6); color: #fff; }
 @media (max-width: 760px) { .hero img { height: 200px; } }
-.hero.hero-page img { height: 360px; object-position: center; }
-@media (max-width: 760px) { .hero.hero-page img { height: 200px; } }
+.hero.hero-page { max-width: 560px; margin-left: auto; margin-right: auto; }
+.hero.hero-page img { height: auto; aspect-ratio: 1 / 1; object-fit: contain; }
+
