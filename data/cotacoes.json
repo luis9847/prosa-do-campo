@@ -1,41 +1,41 @@
 {
- "atualizadoEm": "2026-11-25T17:20:00-03:00",
+ "atualizadoEm": "2026-11-26T12:45:00-03:00",
  "aviso": "Preços de praças de Minas Gerais, reunidos de portais do setor (BBM, Conseleite-MG, Cepea, Avimig, Conab, CeasaMinas e cooperativas de café). A data de cada preço aparece na linha, e alguns são de dias anteriores. Antes de fechar negócio, confirme na fonte original.",
  "dolar": {
-  "valor": 5.815,
-  "variacaoPct": -1.62,
-  "hora": "14h25",
-  "data": "25/11/2026",
+  "valor": 5.771,
+  "variacaoPct": -0.79,
+  "hora": "9h19",
+  "data": "26/11/2026",
   "tipo": "Durante o pregão",
-  "ptax": "R$ 5,8825",
+  "ptax": "R$ 5,8825 (de 25/11)",
   "fonte": "BPMoney",
-  "url": "https://bpmoney.com.br/mercado/cambio/dolar-hoje-cai-162-a-r-581-25-11-2026/",
-  "nota": "O dólar mudou de direção durante o dia, por isso as fontes mostram valores diferentes. O último valor registrado não é o fechamento. A variação é sobre o fechamento do dia anterior.",
+  "url": "https://bpmoney.com.br/mercado/cambio/dolar-hoje-cai-5771-trabuco-fazenda/",
+  "nota": "Valor do pregão das 9h19, estimativa, não é fechamento. As variações são sobre o fechamento de 25/11 (R$ 5,8179, queda de 1,53%). O PTAX de 25/11 (R$ 5,8825) é uma média do dia e por isso difere do fechamento. O GCMais cita, citando a Folha, R$ 5,719 às 11h10 (−1,71%), valor que não encontrei em outra fonte.",
   "linhas": [
    {
-    "hora": "9h14",
-    "valor": "R$ 5,932",
-    "variacao": "+0,39%",
-    "cls": "up",
-    "fonte": "Istoé Dinheiro",
-    "url": "https://istoedinheiro.com.br/dolar-hoje-25-11-2026-cotacao-leiloes-bc"
+    "hora": "9h19",
+    "valor": "R$ 5,771",
+    "variacao": "−0,79%",
+    "cls": "down",
+    "fonte": "IstoÉ Dinheiro",
+    "url": "https://istoedinheiro.com.br/dolar-hoje-26-11-2026-trabuco-fazenda"
    },
    {
-    "hora": "13h10",
-    "sub": "PTAX, venda",
-    "valor": "R$ 5,8825",
-    "variacao": "referência do BC",
-    "cls": "",
-    "fonte": "Piranot",
-    "url": "https://www.piranot.com.br/2026/11/25/noticias/economia/dolar-ptax-fecha-em-r-58825-nesta-quarta-feira-25-11-2026-veja-a/"
-   },
-   {
-    "hora": "14h25",
-    "valor": "R$ 5,815",
-    "variacao": "−1,62%",
+    "hora": "9h19",
+    "valor": "R$ 5,771",
+    "variacao": "−0,79%",
     "cls": "down",
     "fonte": "BPMoney",
-    "url": "https://bpmoney.com.br/mercado/cambio/dolar-hoje-cai-162-a-r-581-25-11-2026/"
+    "url": "https://bpmoney.com.br/mercado/cambio/dolar-hoje-cai-5771-trabuco-fazenda/"
+   },
+   {
+    "hora": "11h10",
+    "sub": "citado pela Folha, fonte única",
+    "valor": "R$ 5,719",
+    "variacao": "−1,71%",
+    "cls": "down",
+    "fonte": "GCMais",
+    "url": "https://gcmais.com.br/noticias/2026/11/26/dolar-hoje-veja-a-cotacao-e-o-que-influencia-a-moeda-nesta-quinta-feira-26"
    }
   ]
  },
