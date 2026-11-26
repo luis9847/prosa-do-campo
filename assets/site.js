@@ -52,7 +52,7 @@ function bloco(b) {
   h += '<div class="scroll"><table><thead><tr>' + b.colunas.map(function (c) { return "<th>" + esc(c) + "</th>"; }).join("") + "</tr></thead><tbody>" +
     b.linhas.map(function (l) { return "<tr>" + l.map(cell).join("") + "</tr>"; }).join("") + "</tbody></table></div>";
   var fs = b.fontes || [];
-  var nota = (b.nota ? esc(b.nota) + " " : "") + (fs.length ? "Fonte" + (fs.length > 1 ? "s" : "") + ": " + fs.map(function (f) { return link(f.t, f.u); }).join(", ") + "." : "");
+  var nota = fs.map(function (f) { return link(f.t, f.u); }).join(" · ");
   if (nota) h += '<p class="sub" style="margin:10px 0 0">' + nota + "</p>";
   return h;
 }
