@@ -1,5 +1,5 @@
 {
- "atualizadoEm": "2026-11-25T18:00:00-03:00",
+ "atualizadoEm": "2026-11-27T18:16:00-03:00",
  "noticias": [
   {
    "titulo": "INMET emite alertas de tempestade para Minas Gerais; Norte do estado tem risco de temporais",
@@ -63,6 +63,33 @@
    "tema": "chuva",
    "regiao": "Minas Gerais",
    "impacto": "Aviso amarelo de 25/11, com ventos e possibilidade de granizo em várias regiões."
+  },
+  {
+   "titulo": "Inmet alerta para tempestades em 596 cidades de Minas; veja a lista",
+   "fonte": "Estado de Minas",
+   "data": "26/11/2026",
+   "url": "https://www.em.com.br/gerais/2026/11/7545032-inmet-alerta-para-tempestades-em-596-cidades-de-minas-veja-a-lista.html",
+   "tema": "chuva",
+   "regiao": "Minas Gerais",
+   "impacto": "Alerta de perigo em 26/11 para chuva de 50 a 100 mm no dia e vento de até 100 km/h, com risco de alagamento e queda de energia."
+  },
+  {
+   "titulo": "Chuvas intensas e ventos fortes colocam Sudeste, Centro-Oeste e Sul Goiano em alerta laranja do INMET",
+   "fonte": "Clima ao Vivo",
+   "data": "26/11/2026",
+   "url": "https://www.climaaovivo.com.br/noticias/chuvas-intensas-e-ventos-fortes-colocam-sudeste-centro-oeste-e-sul-goiano-em-alerta-laranja-do-inmet-26-11-26",
+   "tema": "chuva",
+   "regiao": "Sul de Minas",
+   "impacto": "O aviso laranja de 26/11 inclui o Sul e Sudoeste de Minas; vale proteger lavouras e conferir drenagem."
+  },
+  {
+   "titulo": "Inmet emite alerta de perigo para chuvas intensas e ventos de até 100 km/h no Sul do país",
+   "fonte": "O Tempo (Agência Brasil)",
+   "data": "27/11/2026",
+   "url": "https://www.otempo.com.br/brasil/2026/11/27/inmet-emite-alerta-de-perigo-para-chuvas-intensas-e-ventos-de-ate-100-km-h-no-sul-do-pais",
+   "tema": "chuva",
+   "regiao": "Brasil",
+   "impacto": "O aviso laranja de 27/11 é para o Sul do país; Minas aparece apenas em aviso amarelo."
   }
  ],
  "links": [

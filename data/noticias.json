@@ -1,6 +1,62 @@
 {
- "atualizadoEm": "2026-11-25T18:00:00-03:00",
+ "atualizadoEm": "2026-11-27T18:16:00-03:00",
  "itens": [
+  {
+   "titulo": "Preço do boi gordo sobe no físico e cai no futuro no final de novembro",
+   "fonte": "Farmnews",
+   "data": "27/11/2026",
+   "url": "https://farmnews.com.br/mercado/preco-do-boi-gordo-sobe-no-fisico-e-cai-no-futuro-no-final-de-novembro/",
+   "tema": "boi",
+   "impacto": "O mercado físico renovou a máxima nominal, com a referência Datagro em R$ 397,4 por arroba, enquanto o contrato de dezembro da B3 recuou."
+  },
+  {
+   "titulo": "Arroba do boi gordo tem ligeira queda em São Paulo; veja cotações pelo país",
+   "fonte": "Canal Rural",
+   "data": "27/11/2026",
+   "url": "https://www.canalrural.com.br/pecuaria/arroba-do-boi-gordo-tem-ligeira-queda-em-sao-paulo-veja-cotacoes-pelo-pais/",
+   "tema": "boi",
+   "impacto": "O indicador Cepea/Esalq fechou em R$ 396,70 em 26/11, e a arroba acumula alta de 1,74% no mês. A matéria não traz preço de Minas."
+  },
+  {
+   "titulo": "Boi gordo: retenção de fêmeas pode mudar cenário de oferta e preços da arroba",
+   "fonte": "Canal Rural",
+   "data": "26/11/2026",
+   "url": "https://www.canalrural.com.br/pecuaria/boi-gordo-retencao-de-femeas-pode-mudar-cenario-de-oferta-e-precos-da-arroba/",
+   "tema": "boi",
+   "impacto": "Segundo o Cepea, menos vacas e novilhas indo ao abate devem restringir a oferta no curto prazo e podem aumentar a produção de bezerros depois."
+  },
+  {
+   "titulo": "Dólar despenca 4% a R$ 5,51 e Ibovespa fecha em leve alta",
+   "fonte": "Misto Brasil",
+   "data": "27/11/2026",
+   "url": "https://mistobrasil.com/2026/11/27/dolar-despenca-4-a-r-551-e-ibovespa-fecha-em-leve-alta/",
+   "tema": "mercado",
+   "impacto": "O dólar caiu 3,97% no dia, o que costuma pesar no preço em reais de soja e café, mas alivia o custo de insumos importados."
+  },
+  {
+   "titulo": "Maior oferta global de café pressiona bolsas em novembro, mas dólar e retração dos produtores sustentam mercado brasileiro",
+   "fonte": "SAFRAS & Mercado",
+   "data": "27/11/2026",
+   "url": "https://safras.com.br/maior-oferta-global-de-cafe-pressiona-bolsas-em-novembro-mas-dolar-e-retracao-dos-produtores-sustentam-mercado-brasileiro/",
+   "tema": "cafe",
+   "impacto": "As bolsas lá fora caíram em novembro, mas o dólar e a menor venda dos produtores seguraram o preço no Brasil."
+  },
+  {
+   "titulo": "Câmbio garante preços melhores e ritmo mais intenso na comercialização de soja no Brasil em novembro",
+   "fonte": "SAFRAS & Mercado",
+   "data": "27/11/2026",
+   "url": "https://safras.com.br/cambio-garante-precos-melhores-e-ritmo-mais-intenso-na-comercializacao-de-soja-no-brasil-em-novembro/",
+   "tema": "graos",
+   "impacto": "Os negócios com soja se recuperaram em novembro, ajudados pelo dólar mais alto no mês; a matéria não traz preço de Minas."
+  },
+  {
+   "titulo": "Café sobe 1,93% em Minas e lidera cotações do agro nesta quinta",
+   "fonte": "O Tempo",
+   "data": "26/11/2026",
+   "url": "https://www.otempo.com.br/agro/2026/11/26/cotacoes-do-agro-em-minas-26-11-2026",
+   "tema": "cafe",
+   "impacto": "Resumo diário de preços de Minas: café em alta nas cinco praças acompanhadas, soja e milho estáveis."
+  },
   {
    "titulo": "Café cai 2,46% e soja sobe 0,98% nas cotações agro de Minas",
    "fonte": "O Tempo",

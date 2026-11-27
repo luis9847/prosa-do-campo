@@ -1,33 +1,33 @@
 {
- "atualizadoEm": "2026-11-26T18:20:00-03:00",
+ "atualizadoEm": "2026-11-27T18:16:00-03:00",
  "aviso": "Preços de praças de Minas Gerais, reunidos de portais do setor (BBM, Conseleite-MG, Cepea, Avimig, Conab, CeasaMinas e cooperativas de café). A data de cada preço aparece na linha, e alguns são de dias anteriores. Antes de fechar negócio, confirme na fonte original.",
  "dolar": {
-  "valor": 5.7441,
-  "variacaoPct": -1.25,
-  "hora": "17h48",
-  "data": "26/11/2026",
+  "valor": 5.5156,
+  "variacaoPct": -3.97,
+  "hora": "17h43",
+  "data": "27/11/2026",
   "tipo": "Fechamento",
-  "ptax": "R$ 5,7446 (de 26/11)",
-  "fonte": "NC News",
-  "url": "https://ncnews.com.br/2026/11/26/dolar-hoje-cai-a-r-574-e-ibovespa-sobe/",
-  "nota": "Fechamento de 26/11 (NC News, 17h48): R$ 5,7441, queda de 1,25% sobre o fechamento de 25/11 (R$ 5,8167 nessa fonte; a nota anterior citava R$ 5,8179 em outra fonte, diferença pequena). O PTAX de venda de 26/11 (R$ 5,7446, Banco Central, via Piranot) é uma média do dia e por isso difere um pouco do fechamento.",
+  "ptax": "R$ 5,5430 (de 27/11)",
+  "fonte": "Misto Brasil",
+  "url": "https://mistobrasil.com/2026/11/27/dolar-despenca-4-a-r-551-e-ibovespa-fecha-em-leve-alta/",
+  "nota": "Fechamento de 27/11 (Misto Brasil, 17h43): R$ 5,5156, queda de 3,97% sobre o fechamento de 26/11 (cerca de R$ 5,744, valor que confere com R$ 5,7441 do fechamento anterior). O PTAX de venda de 27/11 (R$ 5,5430, Banco Central, via Piranot) é uma média do dia e por isso difere do fechamento. Manchetes que citam R$ 5,74 se referem ao dia 26/11.",
   "linhas": [
    {
-    "hora": "17h48",
-    "valor": "R$ 5,7441",
-    "variacao": "−1,25%",
+    "hora": "17h43",
+    "valor": "R$ 5,5156",
+    "variacao": "−3,97%",
     "cls": "down",
-    "fonte": "NC News (fechamento)",
-    "url": "https://ncnews.com.br/2026/11/26/dolar-hoje-cai-a-r-574-e-ibovespa-sobe/"
+    "fonte": "Misto Brasil (fechamento)",
+    "url": "https://mistobrasil.com/2026/11/27/dolar-despenca-4-a-r-551-e-ibovespa-fecha-em-leve-alta/"
    },
    {
-    "hora": "13h11",
+    "hora": "13h40",
     "sub": "PTAX de venda, média do dia",
-    "valor": "R$ 5,7446",
+    "valor": "R$ 5,5430",
     "variacao": "sem dado",
     "cls": "dt",
     "fonte": "Piranot (Banco Central)",
-    "url": "https://www.piranot.com.br/2026/11/26/noticias/economia/dolar-ptax-fecha-em-r-57446-nesta-quinta-feira-26-11-2026-veja-a/"
+    "url": "https://www.piranot.com.br/2026/11/27/noticias/economia/dolar-ptax-fecha-em-r-55430-nesta-sexta-feira-27-11-2026-veja-a/"
    }
   ]
  },
@@ -43,56 +43,56 @@
    "k": "Soja MG",
    "v": "160,00",
    "u": "R$/sc",
-   "d": "25/11",
-   "dir": 1
+   "d": "26/11",
+   "dir": 0
   },
   {
    "k": "Milho MG",
    "v": "63,00",
    "u": "R$/sc",
-   "d": "25/11",
+   "d": "26/11",
    "dir": 0
   },
   {
    "k": "Café Guaxupé",
-   "v": "1.747,00",
+   "v": "1.782,00",
    "u": "R$/sc",
-   "d": "25/11, 15h57",
-   "dir": -1
+   "d": "26/11, fech.",
+   "dir": 0
   },
   {
    "k": "Café Varginha",
-   "v": "1.670,00",
+   "v": "1.700,00",
    "u": "R$/sc",
-   "d": "25/11, 15h57",
-   "dir": -1
+   "d": "26/11, fech.",
+   "dir": 0
   },
   {
    "k": "Café Poços",
-   "v": "1.720,00",
+   "v": "1.730,00",
    "u": "R$/sc",
-   "d": "25/11, 15h57",
+   "d": "26/11, fech.",
    "dir": -1
   },
   {
    "k": "Café Machado",
-   "v": "1.750,00",
+   "v": "1.740,00",
    "u": "R$/sc",
-   "d": "25/11, 15h57",
+   "d": "26/11, fech.",
    "dir": -1
   },
   {
    "k": "Café Araguari",
    "v": "1.750,00",
    "u": "R$/sc",
-   "d": "25/11, 15h57",
+   "d": "26/11, fech.",
    "dir": -1
   },
   {
    "k": "Feijão",
-   "v": "314,74",
+   "v": "316,88",
    "u": "R$/sc",
-   "d": "25/11",
+   "d": "26/11",
    "dir": 1
   },
   {
@@ -106,7 +106,7 @@
    "k": "Frango MG",
    "v": "5,50",
    "u": "R$/kg",
-   "d": "25/11",
+   "d": "26/11",
    "dir": 0
   }
  ],
@@ -235,15 +235,15 @@
         "s": "R$ por arroba, à vista"
        },
        {
-        "t": "395,45",
+        "t": "396,70",
         "cls": "val"
        },
        {
-        "t": "+0,06%",
-        "cls": "up"
+        "t": "−0,06%",
+        "cls": "down"
        },
        {
-        "t": "24/11",
+        "t": "26/11",
         "cls": "dt"
        }
       ],
@@ -267,6 +267,10 @@
       ]
      ],
      "fontes": [
+      {
+       "t": "Cepea/Esalq via Canal Rural; B3 via Notícias Agrícolas",
+       "u": "https://www.canalrural.com.br/pecuaria/arroba-do-boi-gordo-tem-ligeira-queda-em-sao-paulo-veja-cotacoes-pelo-pais/"
+      },
       {
        "t": "Cepea/Esalq e B3, via Notícias Agrícolas",
        "u": "https://www.noticiasagricolas.com.br/cotacoes/boi-gordo"
@@ -346,12 +350,9 @@
         "t": "160,00",
         "cls": "val"
        },
+       "estável",
        {
-        "t": "+0,98%",
-        "cls": "up"
-       },
-       {
-        "t": "25/11",
+        "t": "26/11",
         "cls": "dt"
        }
       ],
@@ -366,7 +367,7 @@
        },
        "estável",
        {
-        "t": "25/11",
+        "t": "26/11",
         "cls": "dt"
        }
       ],
@@ -376,15 +377,15 @@
         "s": "Paracatu e Unaí"
        },
        {
-        "t": "314,74",
+        "t": "316,88",
         "cls": "val"
        },
        {
-        "t": "+0,36%",
+        "t": "+0,68%",
         "cls": "up"
        },
        {
-        "t": "25/11",
+        "t": "26/11",
         "cls": "dt"
        }
       ]
@@ -392,8 +393,8 @@
      "nota": "A variação do dia é a média das praças acompanhadas.",
      "fontes": [
       {
-       "t": "O Tempo, com dados da BBM",
-       "u": "https://www.otempo.com.br/agro/2026/11/25/cotacoes-do-agro-em-minas-25-11-2026"
+       "t": "O Tempo, com dados da BBM (26/11)",
+       "u": "https://www.otempo.com.br/agro/2026/11/26/cotacoes-do-agro-em-minas-26-11-2026"
       }
      ]
     }
@@ -423,7 +424,7 @@
        },
        "estável",
        {
-        "t": "25/11",
+        "t": "26/11",
         "cls": "dt"
        }
       ],
@@ -463,12 +464,12 @@
         "s": "R$ por kg, atacado de BH, CeasaMinas"
        },
        {
-        "t": "3,50",
+        "t": "4,00",
         "cls": "val"
        },
        "sem dado",
        {
-        "t": "25/11",
+        "t": "26/11",
         "cls": "dt"
        }
       ]
@@ -476,8 +477,8 @@
      "nota": "Ovos de Minas: ainda sem valor de novembro de 2026 confirmado.",
      "fontes": [
       {
-       "t": "O Tempo",
-       "u": "https://www.otempo.com.br/agro/2026/11/25/cotacoes-do-agro-em-minas-25-11-2026"
+       "t": "O Tempo (26/11)",
+       "u": "https://www.otempo.com.br/agro/2026/11/26/cotacoes-do-agro-em-minas-26-11-2026"
       },
       {
        "t": "Brasil 61 (Cepea), suíno",
@@ -495,7 +496,7 @@
    "duasColunas": true,
    "blocos": [
     {
-     "titulo": "Arábica tipo 6, bebida dura (bica corrida) · 25/11, 15h57",
+     "titulo": "Arábica tipo 6, bebida dura (bica corrida) · fechamento de 26/11",
      "colunas": [
       "Praça",
       "Preço",
@@ -508,13 +509,10 @@
         "s": "Cooxupé · Sul de Minas"
        },
        {
-        "t": "1.747,00",
+        "t": "1.782,00",
         "cls": "val"
        },
-       {
-        "t": "−3,05%",
-        "cls": "down"
-       }
+       "estável"
       ],
       [
        {
@@ -522,11 +520,11 @@
         "s": "CaféPoços · Sul de Minas"
        },
        {
-        "t": "1.720,00",
+        "t": "1.730,00",
         "cls": "val"
        },
        {
-        "t": "−1,15%",
+        "t": "−1,14%",
         "cls": "down"
        }
       ],
@@ -536,13 +534,10 @@
         "s": "Minasul · Sul de Minas"
        },
        {
-        "t": "1.670,00",
+        "t": "1.700,00",
         "cls": "val"
        },
-       {
-        "t": "−2,34%",
-        "cls": "down"
-       }
+       "estável"
       ],
       [
        {
@@ -550,11 +545,11 @@
         "s": "Coopama · Sul de Minas"
        },
        {
-        "t": "1.750,00",
+        "t": "1.740,00",
         "cls": "val"
        },
        {
-        "t": "−1,69%",
+        "t": "−2,79%",
         "cls": "down"
        }
       ],
@@ -564,11 +559,11 @@
         "s": "Coopercam · Sul de Minas"
        },
        {
-        "t": "1.705,00",
+        "t": "1.715,00",
         "cls": "val"
        },
        {
-        "t": "−2,29%",
+        "t": "−0,87%",
         "cls": "down"
        }
       ],
@@ -592,22 +587,25 @@
         "s": "Expocaccer · Cerrado Mineiro"
        },
        {
-        "t": "1.740,00",
+        "t": "1.710,00",
         "cls": "val"
        },
-       "sem dado"
+       {
+        "t": "−3,12%",
+        "cls": "down"
+       }
       ]
      ],
-     "nota": "Valores durante o pregão, que são estimativas. A variação é sobre o fechamento anterior. A mesma página lista outras praças de Minas com o mesmo valor por região, e por isso mostrei só as cooperativas com cotação própria.",
+     "nota": "Fechamento de 26/11, não é mais estimativa de pregão. A variação é sobre o fechamento anterior. Esta tabela trocou a do pregão de 25/11 (Cotação do Café), por isso Guaxupé aparece estável mesmo com o pregão de 25/11 em 1.747,00. O Tempo/BBM cita R$ 1.800,00 para Araguari e Patrocínio em 26/11, outra metodologia.",
      "fontes": [
       {
-       "t": "Cotação do Café",
-       "u": "https://cotacaodocafe.com/cotacao/cafe-arabica-minas-gerais/"
+       "t": "Café em Foco, Muzambinho.com (26/11)",
+       "u": "https://muzambinho.com.br/2026/11/26/cafe-em-foco-26-11-26-cotacoes-e-informacoes-da-cafeicultura/"
       }
      ]
     },
     {
-     "titulo": "Cereja descascado · fechamento de 23/11",
+     "titulo": "Cereja descascado · fechamento de 26/11",
      "colunas": [
       "Praça",
       "Preço",
@@ -620,11 +618,11 @@
         "s": "CaféPoços"
        },
        {
-        "t": "1.870,00",
+        "t": "1.860,00",
         "cls": "val"
        },
        {
-        "t": "−1,58%",
+        "t": "−1,06%",
         "cls": "down"
        }
       ],
@@ -634,24 +632,10 @@
         "s": "Cooxupé"
        },
        {
-        "t": "1.865,00",
+        "t": "1.845,00",
         "cls": "val"
        },
-       {
-        "t": "−1,58%",
-        "cls": "down"
-       }
-      ],
-      [
-       {
-        "t": "Patrocínio",
-        "s": "Expocaccer"
-       },
-       {
-        "t": "1.830,00",
-        "cls": "val"
-       },
-       "sem dado"
+       "estável"
       ],
       [
        {
@@ -659,16 +643,30 @@
         "s": "Minasul"
        },
        {
-        "t": "1.810,00",
+        "t": "1.780,00",
         "cls": "val"
        },
        "estável"
+      ],
+      [
+       {
+        "t": "Patrocínio",
+        "s": "Expocaccer"
+       },
+       {
+        "t": "1.750,00",
+        "cls": "val"
+       },
+       {
+        "t": "−2,78%",
+        "cls": "down"
+       }
       ]
      ],
      "fontes": [
       {
-       "t": "Café em Foco, Muzambinho.com",
-       "u": "https://muzambinho.com.br/2026/11/23/cafe-em-foco-23-11-26-cotacoes-e-informacoes-da-cafeicultura/"
+       "t": "Café em Foco, Muzambinho.com (26/11)",
+       "u": "https://muzambinho.com.br/2026/11/26/cafe-em-foco-26-11-26-cotacoes-e-informacoes-da-cafeicultura/"
       }
      ]
     },
@@ -684,15 +682,15 @@
       [
        "Arábica Cepea/Esalq",
        {
-        "t": "1.692,77",
+        "t": "1.665,87",
         "cls": "val"
        },
        {
-        "t": "−0,95%",
+        "t": "−0,78%",
         "cls": "down"
        },
        {
-        "t": "23/11",
+        "t": "26/11",
         "cls": "dt"
        }
       ],
@@ -714,8 +712,8 @@
      ],
      "fontes": [
       {
-       "t": "Muzambinho.com",
-       "u": "https://muzambinho.com.br/2026/11/23/cafe-em-foco-23-11-26-cotacoes-e-informacoes-da-cafeicultura/"
+       "t": "Muzambinho.com (26/11)",
+       "u": "https://muzambinho.com.br/2026/11/26/cafe-em-foco-26-11-26-cotacoes-e-informacoes-da-cafeicultura/"
       },
       {
        "t": "Brasil 61",
